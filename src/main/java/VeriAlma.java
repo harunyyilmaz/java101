@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class veriAlma {
+public class VeriAlma {
     public static void main(String[] args) {
 
 

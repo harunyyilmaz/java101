@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class kdv4 {
+public class Kdv4 {
     public static void main(String[] args) {
 
         Scanner input=new Scanner(System.in);

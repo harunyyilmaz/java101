@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class kdvTutarHesabı {
+public class KdvTutarHesabı {
     public static void main(String[] args) {
 
         double tutar, kdvOran=0.18,kdvTutar,kdvliTutar;
