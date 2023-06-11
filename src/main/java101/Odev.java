@@ -18,9 +18,8 @@ public class Odev {
         m= input.nextDouble();
 
         System.out.print("kitle indeksiniz:");
-        kiloIndeks= kg* (m*m);
+        kiloIndeks= kg/(m*m);
         System.out.println(kiloIndeks);
-
 
 
 
