@@ -9,15 +9,20 @@ public class Odev {
         double kg,m;
         double kiloIndeks;
 
+
         System.out.print("Kilonuzu Giriniz:");
         kg= input.nextDouble();
+
 
         System.out.print("Boyunuzu Giriniz:");
         m= input.nextDouble();
 
-        System.out.print("Kilo İndeksi:");
-        kiloIndeks= (kg/m)*m;
+        System.out.print("kitle indeksiniz:");
+        kiloIndeks= kg* (m*m);
         System.out.println(kiloIndeks);
+
+
+
 
 
 
