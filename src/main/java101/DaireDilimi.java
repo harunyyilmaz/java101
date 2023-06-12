@@ -5,11 +5,15 @@ public class DaireDilimi {
 
         Scanner input=new Scanner(System.in);
 
-        int r;
-        double dairealan, dilimalani, pi=3.14, a=30;
+        int r,a;
+        double dairealan, dilimalani, pi=3.14;
 
         System.out.print("Yarı çap:");
         r= input.nextInt();
+
+        System.out.print("Daire açısı:");
+        a= input.nextInt();
+
 
         System.out.print("Daire alan:");
         dairealan=pi*(r*r);

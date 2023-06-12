@@ -35,7 +35,7 @@ public class NotOrtalamasi {
         double kosul=70;
 
         boolean gecerli= ortalama>kosul;
-        System.out.println("Teşekkür Belgesi:"+gecerli);
+        System.out.println("teşekkür belgesi"+gecerli);
 
 
 
