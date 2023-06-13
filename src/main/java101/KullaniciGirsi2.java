@@ -30,16 +30,5 @@ public class KullaniciGirsi2 {
 
 
 
-
-
-
-
-        if (userName.equals("harunyyilmaz") && (password.equals("harun1905"))) {
-        }
-
-
-
-
-
     }
 }
