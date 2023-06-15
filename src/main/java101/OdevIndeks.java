@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
-
-public class Odev {
+public class OdevIndeks {
     public static void main(String[] args) {
-
         Scanner input=new Scanner(System.in);
 
         double kg,m;
@@ -20,12 +18,6 @@ public class Odev {
         System.out.print("kitle indeksiniz:");
         kiloIndeks= kg/(m*m);
         System.out.println(kiloIndeks);
-
-
-
-
-
-
-
     }
 }
+

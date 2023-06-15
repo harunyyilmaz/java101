@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Manav {
+public class OdevManav {
     public static void main(String[] args) {
 
         Scanner input=new Scanner(System.in);
@@ -21,9 +21,9 @@ public class Manav {
         System.out.print("patlıcan kg:");
         patlican= input.nextDouble();
 
-        System.out.print("toplam tutar:");
+
         toplam=(Af*armut)+(Ef*elma)+(Df*domates)+(Mf*muz)+(Pf*patlican);
-        System.out.println(toplam);
+        System.out.print("toplam tutar:"+toplam);
 
 
 

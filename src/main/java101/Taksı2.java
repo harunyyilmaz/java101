@@ -18,7 +18,7 @@ public class Taksı2 {
 
         Total=(km*perKm)+startprice;
 
-        Total=(km*perKm)+startprice<30 ? 30:Total;
+        Total=Total<30 ? 30:Total;
         System.out.println(Total);
 
 

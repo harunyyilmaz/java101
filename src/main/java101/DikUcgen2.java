@@ -5,18 +5,16 @@ public class DikUcgen2 {
 
         Scanner input=new Scanner(System.in);
 
-        int a,b;
-        double c;
+        double a,b,c;
 
-        System.out.print("a kenarı:");
-        a= input.nextInt();
+        System.out.print("A kenarı:");
+        a= input.nextDouble();
+        System.out.print("B kenarı:");
+        b= input.nextDouble();
 
-        System.out.print("b kenarı:");
-        b= input.nextInt();
+        c=Math.sqrt ((a*a)+(b*b));
+        System.out.println("Hipotüs:"+ c);
 
-        System.out.print("hipotenüs");
-        c=Math.sqrt((a*a)+(b*b));
-        System.out.println(c);
 
 
 
