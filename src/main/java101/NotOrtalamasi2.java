@@ -5,35 +5,34 @@ public class NotOrtalamasi2 {
 
         Scanner input=new Scanner(System.in);
 
-        int mat,turkce,tarih,biyoloji;
+        int mat,turkce,fizik,tarih,muzik;
 
-
-        System.out.println("matematik notu:");
+        System.out.print("Matematik notunuz:");
         mat= input.nextInt();
-
-
-        System.out.println("türkçe notu:");
+        System.out.print("Türkçe notunuz:");
         turkce= input.nextInt();
-
-
-        System.out.println("tarih notu:");
+        System.out.print("Fizik notunuz:");
+        fizik= input.nextInt();
+        System.out.print("Tarih notunuz:");
         tarih= input.nextInt();
+        System.out.print("Müzik notunuz:");
+        muzik= input.nextInt();
 
 
-        System.out.println("biyoloji notu:");
-        biyoloji= input.nextInt();
+        double ortalama=(mat+turkce+fizik+tarih+muzik)/5;
+        System.out.println("Ortalama notunuz:"+ortalama);
+
+        boolean gecerli= ortalama>60;
+        String sonuc= gecerli ? "Sınıfı geçtiniz" :"Sınıfta kaldınız";
+        System.out.println(sonuc);
 
 
-        int toplam=mat+turkce+biyoloji+tarih;
 
-        double ortalama=toplam/4;
-        System.out.println("ortalama:");
-        System.out.println(ortalama);
 
-        double kosul1=80;
 
-        boolean gecerli= ortalama>kosul1;
-        System.out.println("gecerli:"+gecerli);
+
+
+
 
 
 

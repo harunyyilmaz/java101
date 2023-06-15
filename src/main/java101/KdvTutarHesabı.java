@@ -6,7 +6,7 @@ public class KdvTutarHesabı {
         double tutar, kdvOran=0.18,kdvTutar,kdvliTutar;
 
         Scanner input=new Scanner(System.in);
-        System.out.println("ücret tutarı:");
+        System.out.print("ücret tutarı:");
         tutar= input.nextDouble();
 
         kdvTutar=tutar*kdvOran;

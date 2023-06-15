@@ -174,25 +174,15 @@ public class BurcBulma2 {
 
                 } else {
                     isError = true;
-               }
+                }
                 break;
             default:
-                isError=true;
-
-                }
-             if(isError){
-              System.out.println("hatalı");
-
-             }else{
-               System.out.println("Burcunuz:"+burc);
-
-
-
-
-
-
-
-
+                isError = true;
+        }
+        if(isError){
+            System.out.println("Hatalı gün veya ay girdiniz!");
+        }else{
+            System.out.println("Burcunuz:"+burc);
         }
 
     }

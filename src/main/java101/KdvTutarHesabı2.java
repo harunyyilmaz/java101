@@ -5,24 +5,20 @@ public class KdvTutarHesabı2 {
 
         Scanner input=new Scanner(System.in);
 
-        double tutar, kdvOran=0.18, kdvliFiyat,kdvTutar;
+        double anaPara,kdvOrani=0.18,kdvliFiyat,kdvTutari;
 
 
-        System.out.println("anapara:");
-        tutar= input.nextDouble();
+        System.out.print("Fiyat:");
+        anaPara= input.nextDouble();
+
+        System.out.println("KDV oranı:"+kdvOrani);
+
+        kdvTutari=anaPara*kdvOrani;
+        System.out.println("KDV fiyatı:"+kdvTutari);
 
 
-        System.out.println(kdvOran);
-
-        kdvTutar=tutar*kdvOran;
-        System.out.println(kdvTutar);
-
-
-        kdvliFiyat=tutar+kdvTutar;
-        System.out.println(kdvliFiyat);
-
-
-        System.out.println("anapara:"+tutar);
+        kdvliFiyat=anaPara+kdvTutari;
+        System.out.println("KDVli fiyat:"+kdvliFiyat);
 
 
 
