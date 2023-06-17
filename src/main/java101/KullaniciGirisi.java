@@ -7,6 +7,9 @@ public class KullaniciGirisi {
 
 
         String userName,password;
+        int select;
+
+
         System.out.print("Kullanıcı adınızı giriniz:");
         userName= input.nextLine();
         System.out.print("Şifrenizi giriniz:");
@@ -21,7 +24,8 @@ public class KullaniciGirisi {
 
         }else if(!password.equals("harun.1905")){
             System.out.println("şifreniz yanlış");
-            System.out.println("şifrenizi sıfırlamak ister misiniz?");
+            System.out.println("şifrenizi sıfırlamak ister misiniz? 1- evet 2- hayır:");
+            select= input.nextInt();
 
         }
     }
