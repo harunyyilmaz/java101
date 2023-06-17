@@ -5,18 +5,24 @@ public class KullaniciGirisi {
 
         Scanner input=new Scanner(System.in);
 
+
         String userName,password;
-
-        System.out.print("Kullanıcı Adınız:");
+        System.out.print("Kullanıcı adınızı giriniz:");
         userName= input.nextLine();
-
-        System.out.print("Şifreniz:");
+        System.out.print("Şifrenizi giriniz:");
         password= input.nextLine();
 
-        if(userName.equals("harunyyilmaz")&&(password.equals("harun1905"))){
-            System.out.println("Helal olsun dayı oğlu...");
-        }else{
-            System.out.println("Hatalı giriş!");
+        if(userName.equals("harunyyilmaz")&&password.equals("harun.1905")){
+            System.out.println("Giriş yapıldı.");
+
+        }else if(!userName.equals("harunyyilmaz")){
+            System.out.println("kullanıcı adınız yanlış");
+            System.out.println("kullanıcı adınızı sıfırlamak ister misiniz?");
+
+        }else if(!password.equals("harun.1905")){
+            System.out.println("şifreniz yanlış");
+            System.out.println("şifrenizi sıfırlamak ister misiniz?");
+
         }
     }
 }

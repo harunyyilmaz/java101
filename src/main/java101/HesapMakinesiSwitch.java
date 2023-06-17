@@ -29,10 +29,10 @@ public class HesapMakinesiSwitch {
                     System.out.println("cevap:"+(x1/x2));
                 }else{
                     System.out.println("Hiçbir sayı sıfıra bölünmez");
-                    break;
-
-                } default:
-                System.out.println("Hatalı giriş yaptınız");
+                }
+                break;
+            default:
+                System.out.println("Hatalı seçim yaptınız...");
 
         }
 
