@@ -1,3 +1,5 @@
+package main.java101;
+
 public class Karsilastirma {
     public static void main(String[] args) {
 

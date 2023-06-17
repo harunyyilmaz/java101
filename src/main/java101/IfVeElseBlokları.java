@@ -1,3 +1,5 @@
+package main.java101;
+
 public class IfVeElseBlokları {
     public static void main(String[] args) {
 
