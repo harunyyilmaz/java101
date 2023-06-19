@@ -2,7 +2,7 @@ package main.java101;
 
 import java.util.Scanner;
 
-public class ForDongusu {
+public class PratikForDongusu {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
