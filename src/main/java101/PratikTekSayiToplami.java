@@ -12,7 +12,7 @@ public class PratikTekSayiToplami {
         do {
             System.out.print("Sayıyı giriniz:");
             i= input.nextInt();
-            if(i%4==0 ){
+            if(i%4==0){
                 total=total+i;
                 adet++;
 
