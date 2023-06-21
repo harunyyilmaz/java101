@@ -7,20 +7,20 @@ public class UsluHesaplama {
 
         Scanner input=new Scanner(System.in);
 
-        int n,k;
+        System.out.print("taban sayısı:");
+        int n= input.nextInt();
+        System.out.print("üs olacak sayı:");
+        int k= input.nextInt();
 
-        System.out.print("n taban sayısını gir:");
-        n= input.nextInt();
-        System.out.print("k üssünü gir:");
-        k= input.nextInt();
+        int total=1;
 
-        int carpim=1;
+        for( int i=1; i<=k; i++){
 
-        for(int i=1; i<=k; i++){
-
-            carpim=carpim*n;
+            total=total*n;
         }
-        System.out.println(carpim);
+        System.out.println("cevap:"+total);
+
+
 
 
 
