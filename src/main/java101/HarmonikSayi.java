@@ -18,3 +18,17 @@ public class HarmonikSayi {
         System.out.println("Harmonik hesaplama:"+result);
     }
 }
+
+/*
+      while Döngsünde harmonik hesap:
+
+double result=0;
+        double i=1;
+        while (i<=n){
+
+            result+=1/i;
+            i++;
+        }
+        System.out.println("Harmonik hesabı:"+result);
+ */
+
