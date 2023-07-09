@@ -6,10 +6,11 @@ public class EbobEkokWhile {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
 
-        System.out.print("n1 sayısını giriniz:");
-        int n1=input.nextInt();
         System.out.print("n2 sayısını giriniz:");
         int n2= input.nextInt();
+
+        System.out.print("n1 sayısını giriniz:");
+        int n1= input.nextInt();
 
         if(n1<n2){
 
