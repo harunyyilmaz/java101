@@ -20,6 +20,7 @@ class Car {
     }
 
     void  increaseSpeed(int increment) {
+
         this.speed += increment;
     }
     void decreaseSpeed(int decrease){
