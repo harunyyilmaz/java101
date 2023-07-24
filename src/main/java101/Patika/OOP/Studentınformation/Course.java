@@ -23,6 +23,7 @@ public class Course {
         }
     }
     void printTeacher(){
+
         this.teacher.print();
     }
 }
