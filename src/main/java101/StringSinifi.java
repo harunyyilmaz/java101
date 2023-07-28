@@ -1,8 +1,6 @@
 package main.java101;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
-import java.util.Locale;
 
 public class StringSinifi {
     public static void main(String[] args) {

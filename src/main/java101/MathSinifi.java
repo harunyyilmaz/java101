@@ -1,7 +1,8 @@
-package main;
+package main.java101;
 
 public class MathSinifi {
     public static void main(String[] args) {
+
         System.out.println(Math.abs(-50)); // Mutlak değerini alır.
         System.out.println(Math.ceil(1.2)); // en yakın üst değere yuvarlama yapar.
         System.out.println(Math.floor(1.9)); // en yakın alt değere yuvarlam yapar.
