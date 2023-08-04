@@ -1,4 +1,4 @@
-package main.java101.Kodlamaio;
+package main.java101.Kodlamaio.JavaDersleri;
 
 public class Strings {
     public static void main(String[] args) {
